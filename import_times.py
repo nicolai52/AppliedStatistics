@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-times = np.load('times_HLA.npy')
+times = np.load('pendul_tider/times_HLA.npy')
 
 model =LinearRegression()
 
